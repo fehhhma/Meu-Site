@@ -33,7 +33,7 @@ body{
     font-family: 'Metal Mania', cursive;
 }
 
-.icone, .email {
+.icone, #email {
     display: inline-block;
     height: 35px;
     width: 35px;
@@ -44,7 +44,7 @@ body{
     margin: 3px;
     overflow: hidden;
 }
-.icone i, .email i{
+.icone i, #email i{
     display: inline-block;
     width: 35px;
     height: 35px;
@@ -174,7 +174,7 @@ body{
     display: none;
 }
 .video.active{
-    display:block ;
+    display:block;
 }
 footer p{
     margin-top: 50px;
